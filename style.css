@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/quicksand/v30/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o58a-wg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body {
+  font-family: Quicksand, sans-serif;
+  padding: 1%;
+}
+
+h1, h2 {
+  color: hsla(199, 33%, 60%, 1);
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  padding: 20px 0;
+}
+
+p {
+  padding: 20px;
+}
+
+button {
+  width: 50%;
+  display: block;
+  position: relative;
+  top: -30px;
+  margin: auto;
+  border: 5px solid white;
+  padding: 15px 25px;
+  color: white;
+  background-color: hsla(98, 33%, 50%, 1);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+button:active {
+  cursor: pointer;
+  background-color: black;
+  border: 8px solid white;
+}
+
+.planandbutton {
+  width: 25%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.plan {
+  width: 100%;
+  display: inline-block;
+  border: 1px solid hsla(199, 33%, 60%, 1);
+  background-color: hsla(199, 33%, 60%, 1);
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.plan p {
+  font-size: 24px;
+}
+
+.price {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#options {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+#week, #year {
+  background-color: hsla(199, 33%, 80%, 1);
+}
