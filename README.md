@@ -1,2 +1,2 @@
 # AnimatedButtons
- Training project
+ Training project - Animated Buttons
